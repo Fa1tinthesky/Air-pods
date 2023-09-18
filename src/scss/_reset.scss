@@ -38,21 +38,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* css reset */
-
-.container { 
-    margin: 0 auto; 
-    max-width: 1200px;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-}
-
-.menu__logo {
-    font-size: 40px;
-}
