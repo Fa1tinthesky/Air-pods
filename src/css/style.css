@@ -97,6 +97,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   background-color: #000;
+  color: #fff;
 }
 
 .container {
@@ -106,7 +107,12 @@ body {
 }
 
 .title {
-  font-size: 8rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 0.8rem;
 }
 
 .purchase-bar {
@@ -145,6 +151,19 @@ body {
   position: relative;
   background-color: #000;
   color: #fff;
+  padding: 0 0 2.5rem 0;
+}
+.intro__img {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  max-width: 17.5rem;
+  max-height: 18rem;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .intro__title {
   position: relative;
@@ -163,15 +182,11 @@ body {
   background-color: black;
   border: 1px solid #fff;
 }
-.intro__img {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  max-width: 17.5rem;
-  max-height: 18rem;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+
+.sound {
+  padding: 2.5rem 0;
+}
+.sound__image {
+  margin-top: 2rem;
+  max-width: 60%;
 }
